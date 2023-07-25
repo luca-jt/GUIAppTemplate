@@ -1,4 +1,4 @@
-project "RayTracer"
+project "AppTemplate"
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++17"

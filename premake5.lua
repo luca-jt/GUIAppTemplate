@@ -1,12 +1,12 @@
 -- premake5.lua
-workspace "RayTracer"
+workspace "AppTemplate"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
-   startproject "RayTracer"
+   startproject "AppTemplate"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 include "Walnut/WalnutExternal.lua"
 
-include "RayTracer"
+include "AppTemplate"
 
 require "cmake"
