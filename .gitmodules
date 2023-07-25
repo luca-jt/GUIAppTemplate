@@ -1,6 +1,3 @@
-[submodule "AnaLinA"]
-	path = AnaLinA
-	url = https://github.com/luca-jt/AnaLinA.git
 [submodule "cmake"]
 	path = cmake
 	url = https://github.com/Enhex/premake-cmake.git
